@@ -45,6 +45,7 @@ class _HomeState extends State<Home> {
               AnimatedTextKit(
                 animatedTexts: [
                   TypewriterAnimatedText(
+                      speed: Duration(milliseconds: 100),
                       'Hey,What subject you want to improve today ? ',
                       textStyle: Theme.of(context)
                           .textTheme
